@@ -1,0 +1,78 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: 'Arial';
+
+    padding: 10px;
+
+    background-color: #fff;
+}
+small
+{
+    color: #a4a4a4;
+}
+.product-container
+{
+    padding: 0 12px;
+
+    border: 1px solid #ccc;
+}
+.product-list
+{
+    overflow: hidden;
+
+    padding: 10px 0;
+
+    border-bottom: 1px solid #ccc;
+}
+.product-list:last-child
+{
+    border-bottom: 0;
+}
+.product-information
+{
+    float: left;
+
+    min-width: 350px;
+}
+.product-information > div
+{
+    padding: 3px 0;
+}
+.product-name
+{
+    font-size: 16px;
+    font-weight: bold;
+
+    color: blue;
+}
+.product-details
+{
+    font-size: 14px;
+
+    color: #a4a4a4;
+}
+.product-on-road-price
+{
+    font-size: 14px;
+
+    color: blue;
+}
+.product-checkbox
+{
+    float: right;
+
+    margin: 33px 0;
+}
+.compare-table
+{
+    margin-top: 10px;
+}
+.visibility-hidden
+{
+    visibility: hidden;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Sample Project</title>
+        <!-- data-main attribute tells require.js to load
+             scripts/main.js after require.js loads. -->
+        <script data-main="scripts/main" src="scripts/require.js"></script>
+        <link href="stylesheets/product.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <section id="insertDom" class="product-container"></section>
+
+        <section id="compareTable" class="product-container"></section>
+
+        <button type="button" class="compare-button" disabled>
+            Compare Product
+        </button>
+
+        <div class="compare-tabs" hidden>
+            <button type="button" class="all-compare">All</button>
+            <button type="button" class="similar-compare">Similar</button>
+            <button type="button" class="different-compare">Different</button>
+        </div>
+
+        <!-- Dummy dom is use to create multiple copy -->
+        <div class="product-list-dummy" hidden data-product-code>
+            <div class="product-information">
+                <h2 class="product-name"></h2>
+                <div class="product-details">
+                    <span class="product-engine-type"></span>
+                    <span class="product-transmission"></span>
+                    <span class="product-mileage"></span>
+                </div>
+                <div class="product-exshowroom-price">
+                    <span class="showroom-price"></span>
+                    <small>Ex-showroom Price (New Delhi)</small>
+                </div>
+                <div class="product-on-road-price">
+                    check On-Road Price
+                </div>
+            </div>
+            <div class="product-checkbox">
+                <input type="checkbox" class="checkbox-for-compare" id="" value="" />
+            </div>
+        </div>
+    </body>
+</html>
